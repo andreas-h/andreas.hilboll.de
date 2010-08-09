@@ -1,0 +1,20 @@
+.. vim: set filetype=rst
+
+*****
+Start
+*****
+
+
+BLABLABLA
+
+.. toctree::
+   :maxdepth: 3
+   :titlesonly:
+   :hidden:
+
+
+   privat/index
+   science/index
+   consulting/index
+   kontakt
+   impressum

@@ -1,0 +1,30 @@
+.. vim: set filetype=rst
+
+*********
+Impressum
+*********
+
+| **Verantwortlich für den Inhalt:**
+| Andreas Hilboll
+| Diplom-Mathematiker
+| Hollerallee 71
+| 28209 Bremen
+| Deutschland
+| Telefon 0421 23849671
+| Telefax 0421 23849672
+| Email andreas@hilboll.de
+
+Ust-IdNr.: DE208328911
+
+**Konzept, Gestaltung, Programmierung:** Andreas Hilboll
+
+**Haftungshinweis:** Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich
+keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten
+Seiten sind ausschließlich deren Betreiber verantwortlich.
+
+**Rechtliches:** Die Inhalte dieser Homepage unterliegen dem Urheberrecht.
+Eine Verbreitung der Inhalte, die über das gesetzlich Zulässige
+(beispielsweise Zitate) hinausgeht, bedarf der vorherigen Zustimmung.
+
+© Copyright 2007-2010 Andreas Hilboll. Alle Rechte vorbehalten.
+

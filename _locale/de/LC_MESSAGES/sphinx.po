@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2008-08-07 21:40+0200\n"
+"PO-Revision-Date: 2010-05-24 23:54+0200\n"
+"Last-Translator: Georg Brandl <georg@python.org>\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: _templates/ah02/layout.html:202
+#, python-format
+msgid "Created using <a href=\"http://sphinx.pocoo.org/\" target=\"_blank\">Sphinx</a> %(sphinx_version)s"
+msgstr "Erstellt mit <a href=\"http://sphinx.pocoo.org/\" target=\"_blank\">Sphinx</a> %(sphinx_version)s"
+
+
+#: _templates/ah02/layout.html:219
+#, python-format
+msgid "Last updated on %(last_updated)s"
+msgstr "Zuletzt aktualisiert am %(last_updated)s"
+
+
+#: _templates/ah02/layout.html:205
+#, python-format
+msgid "Valid <a href=\"http://jigsaw.w3.org/css-validator/check/referer\" target=\"_blank\">CSS</a> / <a href=\"http://validator.w3.org/check/referer\" target=\"_blank\">XHTML</a>"
+msgstr "Gültiges <a href=\"http://jigsaw.w3.org/css-validator/check/referer\" target=\"_blank\">CSS</a> / <a href=\"http://validator.w3.org/check/referer\" target=\"_blank\">XHTML</a>"
+
+
+
+
+
+#: _templates/ah02/search.html:29
+#, python-format
+msgid ""
+"From here you can search this website. Enter your search\n"
+"    words into the box below and click \"search\". Note that the search\n"
+"    function will automatically search for all of the words. Pages\n"
+"    containing fewer words won't appear in the result list."
+msgstr ""
+"Von hier aus können Sie diese Internetpräsenz durchsuchen. Geben Sie Ihre "
+"Suchbegriffe in das untenstehende Feld ein und klicken Sie auf "
+"\"Suchen\". Bitte beachten Sie, dass die Suchfunktion automatisch nach "
+"all diesen Worten suchen wird. Seiten, die nicht alle Worte enthalten, "
+"werden nicht in der Ergebnisliste erscheinen."
+
+#: _templates/ah02/layout.html:187
+#, python-format
+msgid "Enter search terms here."
+msgstr "Geben Sie hier Suchbegriffe ein."
+
+

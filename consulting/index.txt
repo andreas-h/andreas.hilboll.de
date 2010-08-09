@@ -1,0 +1,20 @@
+.. vim: set filetype=rst
+
+**************
+Consulting
+**************
+
+
+... auf den Internetseiten von Andreas Hilboll. Hier können Sie sich über
+:doc:`mich <profil>` und :doc:`meine Arbeit <projekte>` informieren, sowie mit
+mir treten.
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+   :hidden:
+
+   profil
+   projekte
+   partner
+

@@ -1,0 +1,12 @@
+.. vim: set filetype=rst
+
+*******
+Partner
+*******
+
+Ich bin bislang u.a. für die folgenden Firmen tätig gewesen:
+
+* `IFNT :: Intelligence For New Technologies, Bonn <http://www.ifnt.de>`__
+* `atmosfair gGmbH, Berlin <http://www.atmosfair.de>`__
+* `Thinxsolutions GbR, Köln <http://www.thinxsolutions.com>`__
+
