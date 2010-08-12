@@ -4,7 +4,7 @@
 Privat
 **************
 
-Dies ist die Interetseite von Andreas Hilboll. Inhalt folgt.
+Diese Kategorie ist noch leer ...
 
 
 .. toctree::

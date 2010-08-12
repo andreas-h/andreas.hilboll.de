@@ -4,15 +4,16 @@
 Impressum
 *********
 
-| **Verantwortlich für den Inhalt:**
-| Andreas Hilboll
-| Diplom-Mathematiker
-| Hollerallee 71
-| 28209 Bremen
-| Deutschland
-| Telefon 0421 23849671
-| Telefax 0421 23849672
-| Email andreas@hilboll.de
+**Verantwortlich für den Inhalt:**
+
+   | Andreas Hilboll
+   | Diplom-Mathematiker
+   | Hollerallee 71
+   | 28209 Bremen
+   | Deutschland
+   | Telefon 0421 23849671
+   | Telefax 0421 23849672
+   | Email andreas@hilboll.de
 
 Ust-IdNr.: DE208328911
 

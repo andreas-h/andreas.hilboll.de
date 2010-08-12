@@ -7,7 +7,7 @@ Consulting
 
 ... auf den Internetseiten von Andreas Hilboll. Hier können Sie sich über
 :doc:`mich <profil>` und :doc:`meine Arbeit <projekte>` informieren, sowie mit
-mir treten.
+mir `in Kontakt <../kontakt>`__ treten.
 
 .. toctree::
    :maxdepth: 2

@@ -27,6 +27,9 @@ help:
 	@echo "  linkcheck to check all external links for integrity"
 	@echo "  doctest   to run all doctests embedded in the documentation (if enabled)"
 
+publish:
+	rsync -r -t -v --delete _build/dirhtml/ srv4:web/hilboll.de/html/
+
 translate:
 	@echo
 	@echo "Compiling translations"

@@ -81,19 +81,19 @@ Presentations
   nitrogen dioxide (NO2) over megacities and large conurbations in the
   mediterranean and middle east from GOME and SCIAMACHY**. *11th IGAC Science
   Conference Halifax, Canada*, July 2010. [`PDF
-  <download/talk_igac_2010_hilboll.pdf>`__] 
+  <../_static/science/talk_igac_2010_hilboll.pdf>`__] 
 * **Hilboll A**, Richter A, Vrekoussis M, Burrows JP: **Trends in tropospheric
   NO2 over megacities in the Mediterranean and Middle East regions from GOME
   and SCIAMACHY**. *EGU general assembly 2010, Vienna, Austria*, May 2010.
-  [`PDF <download/talk_egu_2010_hilboll.pdf>`__]
+  [`PDF <../_static/science/talk_egu_2010_hilboll.pdf>`__]
 * **Hilboll A**, **Trends in tropospheric nitrogen dioxide (NO2) over
   megacities in the Mediterranean and Middle East regions from GOME and
   SCIAMACHY**. *Seminar Ocean, Ice, and Atmosphere, Institute of Environmental
   Physics, University of Bremen, Bremen, Germany*, April 2010.  [`PDF
-  <download/talk_iup-seminar_2010_hilboll.pdf>`__]
+  <../_static/science/talk_iup-seminar_2010_hilboll.pdf>`__]
 * **Hilboll A**: **Satellite measurements of tropospheric trace gases in the
   CHARMEX project**. *CHARMEX WP1 Trends workshop, Paris, France*, October
-  2009.  [`PDF <download/talk_charmex-wp1_2009_hilboll.pdf>`__]
+  2009.  [`PDF <../_static/science/talk_charmex-wp1_2009_hilboll.pdf>`__]
 * Richter A, **Hilboll A**, Burrows JP: **Improvements in GOME-2 retrievals of
   NO2**. *O3M SAF User & Algorithm Forum, Halkidiki, Greece*, June 2009.
 * **Hilboll A**: **Projekt "atmosfair" – eine Antwort auf die Klimafolgen des
@@ -112,7 +112,7 @@ Posters
 * Hilboll A, Richter A, and Burrows JP: **Intercomparison of different
   stratospheric correction schemes for the retrieval of tropospheric nitrogen
   dioxide columns from satellite**. *38th COSPAR Scientific Assembly, Bremen,
-  Germany*, July 2010. [`PDF <download/poster_cospar_2010_hilboll.pdf>`__]
+  Germany*, July 2010. [`PDF <../_static/science/poster_cospar_2010_hilboll.pdf>`__]
 * Noguchi K, Richter A, **Hilboll A**, Burrows JP, and Irie H: **A feasibility
   study for the monitoring of diurnal variations of the tropospheric NO2 over
   Tokyo from a geostationary satellite**. *EGU General Assembly, Vienna,
@@ -133,10 +133,10 @@ Posters
 * **Hilboll A**, Leitão J, Vrekoussis M, Richter A and Burrows JP: **Trends in
   tropospheric NO2 from SCIAMACHY over megacities in the Mediterranean and
   Middle East**. *ESA Atmospheric Science Conference, Barcelona, Spain*,
-  September 2009. [`PDF <download/poster_esa_2009_hilboll.pdf>`__]
+  September 2009. [`PDF <../_static/science/poster_esa_2009_hilboll.pdf>`__]
 * **Hilboll A**: **Observation of Megacity pollution from space**. *1st ESSReS
   annual retreat, Bremerhaven, Germany*, August 2009. [`PDF
-  <download/poster_essres-r1_hilboll.pdf>`__]
+  <../_static/science/poster_essres-r1_hilboll.pdf>`__]
 * Vrekoussis M, **Hilboll A**, Leitão J, Richter A, Wittrock F, Burrows JP,
   Gerasopoulos E, Amiridis V, Petrakis M, Zerefos C, Myriokefalitakis S,
   Kanakodou M, and Mihalopoulos N: **Monitoring Air Pollution From Space: The
@@ -146,7 +146,7 @@ Posters
 * **Hilboll A**, Wieters N, Richter A, Sinnhuber BM, Burrows JP: **The impact
   of the stratospheric correction on tropospheric NO2 measurements from
   satellites**. *EGU General Assembly, Vienna, Austria*, April 2009. [`PDF
-  <download/poster_egu_2009_hilboll.pdf>`__]
+  <../_static/science/poster_egu_2009_hilboll.pdf>`__]
 * Richter A, Leitão J, **Hilboll A**, Wittrock F, Vrekoussis M, and Burrows
   JP: **Using Satellite Measurements to study the Impact of MegaCities on Air
   Pollution**. *7th International Conference on Air Quality – Science and
@@ -162,7 +162,7 @@ Posters
 Curriculum Vitae
 ----------------
 
-A PDF version of my CV is available [`here <download/cv_hilboll.pdf>`__].
+A PDF version of my CV is available [`here <../_static/science/cv_hilboll.pdf>`__].
 
 [top_]
 
@@ -186,7 +186,7 @@ Templates
 
 * **A0 poster template for Scribus:** For my poster at EGU 2009 I created a
   template in `Scribus <http://www.scribus.net>`__, which can be downloaded
-  [`here <download/scribus_template_a0_landscape.sla>`__]. It is in A0
+  [`here <../_static/science/scribus_template_a0_landscape.sla>`__]. It is in A0
   landscape (!) format.
 
 [top_]
