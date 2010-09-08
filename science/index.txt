@@ -64,11 +64,11 @@ Publications
 .. Articles
 .. ^^^^^^^^
 
-* Konovalov I, Beekmann M, Richter A, Burrows JP, **Hilboll A**: **Multi-
+* Konovalov IB, Beekmann M, Richter A, Burrows JP, **Hilboll A**: **Multi-
   annual changes of NOx emissions in megacity regions: nonlinear trend
-  analysis of satellite measurement based estimates**. *Atmos. Chem. Phys.
-  Discuss.*, 10, 10925-10968, 2010. [`Link
-  <http://www.atmos-chem-phys-discuss.net/10/10925/2010/acpd-10-10925-2010.html>`__]
+  analysis of satellite measurement based estimates**. *Atmos. Chem. Phys.*,
+  10, 8481-8498, doi:10.5194/acp-10-8481-2010, 2010. [`Link
+  <http://www.atmos-chem-phys.net/10/8481/2010/acp-10-8481-2010.html>`__]
 
 
 .. _presentations:
