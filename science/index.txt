@@ -64,6 +64,17 @@ Publications
 .. Articles
 .. ^^^^^^^^
 
+* Richter A, Begoin M, **Hilboll A**, Burrows JP: **An improved NO2 retrieval
+  for the GOME-2 satellite instrument**. *Atmos. Meas. Tech. Discuss.*, 4,
+  213-246, doi:10.5194/amtd-4-213-2011, 2011. [`Link
+  <http://www.atmos-meas-tech-discuss.net/4/213/2011/amtd-4-213-2011.html>`__]
+* Kanakidou M, Mihalopoulos N, Kindap T, Im U, Vrekoussis M, Gerasopoulos E,
+  Dermitzaki E, Unal A, Koçak M, Markakis K, Melas D, Mouvarakis G, Youssef
+  AF, Richter A, Hatzianastassiou N, **Hilboll A**, Ebojie F, von Savigny C,
+  Ladstaetter-Weissenmayer A, Burrows JP, Moubasgher H: **Megacities as hot
+  spots of air pollution in the East Mediterranean**. *Atmos. Environ.*,
+  doi:10.1016/j.atmosenv.2010.11.048, 2010. [`Link 
+  <http://dx.doi.org/10.1016/j.atmosenv.2010.11.048>`__]
 * Konovalov IB, Beekmann M, Richter A, Burrows JP, **Hilboll A**: **Multi-
   annual changes of NOx emissions in megacity regions: nonlinear trend
   analysis of satellite measurement based estimates**. *Atmos. Chem. Phys.*,
