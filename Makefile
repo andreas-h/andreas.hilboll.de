@@ -28,7 +28,9 @@ help:
 	@echo "  doctest   to run all doctests embedded in the documentation (if enabled)"
 
 publish:
-	rsync -r -t -v --delete _build/dirhtml/ srv4:web/hilboll.de/html/
+	curlftpfs -v -o ssl,user=andreas@hilboll.de admin.tournesol-consulting.eu/ _remote/
+	rsync --archive --delete-after _build/dirhtml/ _remote/htdocs
+	fusernount -u _remote/
 
 translate:
 	@echo
