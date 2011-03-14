@@ -28,9 +28,7 @@ help:
 	@echo "  doctest   to run all doctests embedded in the documentation (if enabled)"
 
 publish:
-	curlftpfs -v -o ssl,user=andreas@hilboll.de admin.tournesol-consulting.eu/ _remote/
-	rsync --archive --delete-after _build/dirhtml/ _remote/htdocs
-	fusernount -u _remote/
+	lftp -u andreas@hilboll.de -e "set ftp:ssl-force; lcd _build/dirhtml; mirror --delete --only-newer --reverse --verbose . htdocs/; quit" srv2.s4y.tournesol-consulting.eu
 
 translate:
 	@echo
