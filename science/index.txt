@@ -73,7 +73,7 @@ Publications
   AF, Richter A, Hatzianastassiou N, **Hilboll A**, Ebojie F, von Savigny C,
   Ladstaetter-Weissenmayer A, Burrows JP, Moubasgher H: **Megacities as hot
   spots of air pollution in the East Mediterranean**. *Atmos. Environ.*,
-  doi:10.1016/j.atmosenv.2010.11.048, 2010. [`Link 
+  45(6), 1223-1235, doi:10.1016/j.atmosenv.2010.11.048, 2010. [`Link 
   <http://dx.doi.org/10.1016/j.atmosenv.2010.11.048>`__]
 * Konovalov IB, Beekmann M, Richter A, Burrows JP, **Hilboll A**: **Multi-
   annual changes of NOx emissions in megacity regions: nonlinear trend
