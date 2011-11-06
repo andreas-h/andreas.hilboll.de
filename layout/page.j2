@@ -1,0 +1,19 @@
+{% extends "base.j2" %}
+
+{% block main -%}
+<article class="post">
+<h1 class="title">
+    <a href="{{ content_url(resource.url) }}">
+        {{ resource.meta.title }}
+    </a>
+</h1>
+
+{% filter markdown|typogrify -%}
+{% mark post -%}
+{% block page -%}{%- endblock %}
+{%- endmark %}
+{%- endfilter %}
+</article>
+
+{%- endblock %}
+

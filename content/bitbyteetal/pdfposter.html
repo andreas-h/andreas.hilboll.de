@@ -5,6 +5,7 @@ description: >
 created: !!timestamp '2011-11-06 10:00:00'
 tags:
     - PDF
+    - Ubuntu
 ---
 
 {% mark excerpt -%}
@@ -18,12 +19,7 @@ much the same about me.
 {%- endmark %}
 
 
-Render this **content all in reStructuredText**.
-
-     Writing in reStructuredText is also quicker than
-     writing in HTML.
-
-* Or at least that is my opinion.
-* What about you?
-
+    $ sudo aptitude install pdfposter
+    $ # scale a A4 input PDF to A2 (-p) total size, by putting it on A4 (-m) sheets
+    $ pdfposter -mA4 -pA2 ~/Desktop/DomainCalculation.pdf ~/Desktop/DomainCalculation_A2.pdf
 
