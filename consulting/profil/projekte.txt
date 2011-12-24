@@ -1,0 +1,112 @@
+.. vim: set filetype=rst
+
+****************
+Projekterfahrung
+****************
+
+Softwareentwicklung Java / Web
+==============================
+
+*universitäres Umfeld, Bonn*
+
+Es wurde ein Programm für den Studentischen Hilfsfonds programmiert, mit dem
+Mitarbeiter des AStA in einer heterogenen Netzwerkumgebung die
+Darlehensverträge und zugehörigen Zahlungseingänge verwalten können. Säumige
+Zahler werden automatisch gemahnt, und sämtliche Korrespondenz wird über das
+Frontend abgewickelt.
+
+**Aufgaben**: Interfacedesign, Datenmodellierung, Realisierung, Migration von Altdaten
+
+**Techniken**: J2EE, Tomcat, Spring, Hibernate, ZK
+
+
+Diplomarbeit
+============
+
+*Arbeitsgruppe Theoretische Biologie, Universität Bonn*
+
+Unter dem Titel Dynamik und Interaktion von Aktin-Filamenten wurde ein
+physikalisches Modell für die Beschreibung der Dynamik von Aktin-Filamenten
+sowie deren gegenseitige Wechselwirkung via Myosin-Crosslinker entwickelt.
+Dieses Modell wurde zur Ableitung charakteristischer Materialparameter bei der
+Analyse von hochauﬂösenden Mikroskopie-Aufnahmen eingesetzt; die Ergebnisse
+wurden einer statistischen Analyse unterzogen.
+
+**Aufgaben**: Physikalische Modellierung, Bildanalyse, Statistische Analyse
+
+**Techniken**: Matlab
+
+
+Systementwicklung Mail-Gateway
+==============================
+
+*EDV-Dienstleister, Bonn*
+
+Für den Hosting-Betrieb eines Bonner EDV-Dienstleisters wurde ein SMTP-Proxy
+auf Basis von Open Source Komponenten entwickelt, der Spam- und Virenﬁlterung
+vornimmt; die entsprechenden Einstellungen sowie die Einsicht der in
+Quarantäne gehaltenen Objekte sind hierbei auf einer per-Benutzer-Basis
+möglich.
+
+**Aufgaben**: Anti-Spam, Virenschutz
+
+**Techniken**: Linux, Postﬁx, Spamassassin, Amavis
+
+
+Netzwerk- und Systemadministration
+==================================
+
+*verschiedene Kunden aus den Bereichen IT und Medizin*
+
+Für diverse Kunden werden bzw. wurden verschiedenste Tätigkeiten im Rahmen der
+Systemadministration kleiner bis mittlerer Netze auf Basis von Microsoft
+Windows 2003 durchgeführt: Auswahl, Installation und Inbetriebnahme neuer
+Hard- und Softwarelösungen, Planung und Implementierung von
+Remote-Access-Lösungen (Cisco VPN), Benutzerverwaltung, Backup,
+Datensicherheit, ...
+
+**Techniken**: Microsoft Windows 2003, Microsoft Exchange 2003, Active
+Directory, Microsoft Windows XP, Cisco VPN, Symantec BackupExec, TrendMicro
+Client Server Messaging Suite
+
+Systemadministration
+====================
+
+*Arbeitsgruppe Theoretische Biologie, Universität Bonn*
+
+Für die Arbeitsgruppe Theoretische Biologie sowie für den Lehrbetrieb im Fach
+Biologie wurden zur Versorgung einer heterogenen Netzwerkumgebung zwei Server
+zur Bereitstellung der benötigten Netzwerkdienste konzipiert, installiert und
+betrieben.
+
+**Techniken**: Linux, Samba, Microsoft Windows XP
+
+
+Datenbank-Migration
+===================
+
+*Versicherungsmakler, Bonn*
+
+Bei einem Versicherungsmakler für Auslandsreiseversicherungen wurde bei der
+Einführung einer neuen Software-Lösung die Datenmigration aus dem alten (AMS,
+MS Excel) in das neue System (VIAS) überwacht.
+
+**Aufgabne**: Datenmodellierung, Anforderungsanalyse
+
+**Techniken**:Microsoft Excel, SQL, Lutronik VIASW, AssFiNET AMS
+
+
+Datenbank-Entwicklung MS Access
+===============================
+
+*Versicherungsmakler, Bonn*
+
+Eine bestehende Verwaltungssoftware für Versicherungsnehmer und
+Schadensabwicklung wurde nach Ausscheiden des vorigen Entwicklers weiter
+gepﬂegt und an die Kundenbedürfnisse angepasst.
+
+
+**Aufgaben**: Weiterentwicklung und Pﬂege eines bestehenden Datenbank-Systems
+
+**Techniken**: Microsoft Access 97 und 2000
+

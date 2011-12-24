@@ -1,0 +1,16 @@
+.. vim: set filetype=rst
+
+********
+Projekte
+********
+
+Unter dem Menüpunkt :doc:`Projekterfahrung <profil/projekte>` können Sie sich
+einen Überblick verschaffen, welche Projekte ich in den letzten Jahren
+abgeschlossen habe.
+
+Desweiteren finden Sie Informationen über laufende Software- und
+Dienstleistungs-Projekte.
+
+* *ddb* ist ein Programm zur Verwaltung von Darlehen, programmiert für den Studentischen Hilfsfonds der Universität Bonn.
+* [...] *Weitere Projekte folgen* [...]
+

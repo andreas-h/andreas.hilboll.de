@@ -1,0 +1,14 @@
+.. vim: set filetype=rst
+
+**************
+Willkommen ...
+**************
+
+Dies ist die Interetseite von Andreas Hilboll. Mehr Inhalt folgt.
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+   :hidden:
+
+

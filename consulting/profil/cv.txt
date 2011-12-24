@@ -1,0 +1,37 @@
+.. vim: set filetype=rst
+
+**********
+Lebenslauf
+**********
+
+Persönliches
+============
+
+* geboren 1977 in Aachen
+* deutsche Staatsangehörigkeit
+* EDV-Erfahrung seit 1991
+* freiberuﬂich tätig seit 2000
+
+Aus- und Weiterbildung
+======================
+
+* seit 2008 Promotion am `Institut für Umweltphysik
+  <http://www.iup.uni-bremen.de>`__ der Universität Bremen
+
+  * Titel der Dissertation: *Observation of Megacity Pollution from Space*
+
+* Studium der Mathematik an der `Universität Bonn <http://www.uni-bonn.de>`__
+ 
+  * Abschluss als Diplommathematiker im Frühjahr 2007.
+  * Diplomarbeit in der `Arbeitsgruppe Theoretische Biologie
+    <http://www.theobio.uni-bonn.de>`__ über die Simulation der Interaktion
+    von Aktin-Filamenten.
+  * Studienschwerpunkte in Modellierung,
+    Algebraischer Geometrie, Linearer Algebra und Stochastik.
+  * Nebenfächer Biologie und Physik (im Grundstudium).
+
+* Teilnahme am `Junior Workshop *Choosing and Processing Information in
+  Economic Models*
+  <http://sfb649.wiwi.hu-berlin.de/fedc/events/juniorworkshop/>`__, SFB 649,
+  6.-12., September 2007
+

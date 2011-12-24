@@ -1,0 +1,16 @@
+.. vim: set filetype=rst
+
+**************
+Privat
+**************
+
+Diese Kategorie ist noch leer ...
+
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+   :hidden:
+
+   links
+

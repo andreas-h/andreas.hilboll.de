@@ -1,0 +1,95 @@
+.. vim: set filetype=rst
+
+**********
+Skillsheet
+**********
+
+Im Nachfolgenden sind meine Kenntnisse und Erfahrungen auf einer Punkteskala
+von 1 (gering / erste Erfahrungen) bis 4 (sehr gut / umfassend) bewertet.
+
+
+Allgemeine Methodenkompetenz
+============================
+
+* Problemanalyse (4 / 3)
+* Lösungskompetenz (4 / 3)
+* Abstraktionsfähigkeit (4 / 4)
+* Teamfähigkeit (4 / 3)
+* Präsentation (3 / 3)
+* Projektmanagement (3 / 3)
+
+
+Sprachkenntnisse
+================
+
+* Deutsch (Muttersprache)
+* Englisch (fließend)
+* Französisch (fließend)
+* Spanisch (Grundkenntnisse)
+
+
+IT-Skills
+=========
+
+Betriebssysteme (Server)
+------------------------
+
+* Linux (3 / 3)
+* MS Windows 2003 (3 / 3)
+* MS Windows 2000 (3 / 2)
+* Solaris 10 (1 / 1)
+
+
+Datenbanken
+-----------
+
+* PostgreSQL (3 / 2)
+* MS Access (3 / 3)
+* MySQL (2 / 2)
+
+
+Entwicklung
+-----------
+
+* Python (3 / 3)
+* Java (2 / 2)
+* C / C++ (2 / 2)
+* Perl (2 / 2)
+* HTML / CSS (3 / 3)
+* SQL (2 / 2)
+* XML (1 / 1)
+* Matlab (4 / 3)
+* Eclipse (2 / 2)
+* SVN / CVS (3 / 3)
+* trac (3 / 3)
+
+
+Enterprise-Applikationen / Services
+-----------------------------------
+
+* Jboss AS (2 / 2)
+* MS Exchange (3 / 3)
+* Open-Xchange (3 / 3)
+* Scalix (2 / 2)
+* Cisco PIX (3 / 2)
+
+
+Ausgewählte Server-Applikationen / -Dienste
+-------------------------------------------
+
+* Samba (3 / 3)
+* Apache (3 / 3)
+* Postfix (3 / 3)
+* Qmail (2 / 2)
+* OpenLDAP (3 / 3)
+* OpenVPN (3 / 3)
+
+
+Ausgewählte Client-Applikationen
+--------------------------------
+
+* LaTeX (3 / 3)
+* MS Office / Openoffice.org (3 / 3)
+* Matlab (3 / 3)
+* R (2 / 2)
+

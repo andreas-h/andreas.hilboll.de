@@ -1,0 +1,61 @@
+.. vim: set filetype=rst
+
+******
+Profil
+******
+
+   Aufgrund der Arbeit an meiner Promotion bin ich derzeit nicht für Projekte
+   verfügbar.
+
+Derzeit fertige ich am `Institut für Umweltphysik
+<http://www.iup.physik.uni-bremen.de>`__ der `Universität Bremen
+<http://www.uni-bremen.de>`__ meine Dissertation an.
+
+Zuvor war ich selbstständiger
+
+* Berater
+* IT-Architekt
+* Software-Entwickler
+
+mit den Schwerpunkten mathematische Modellierung, Web- Programmierung, Mail-
+und Sicherheitsarchitekturen.
+
+
+Bevorzugte Tätigkeiten
+======================
+
+Modellierung, Consulting und Softwareentwicklung im wissenschaftlichen,
+technischen sowie im Finance-Bereich.
+
+
+.. Soziale Netzwerke
+.. =================
+
+.. Serverfault
+.. -----------
+
+.. .. raw:: html
+
+..    <iframe src="http://serverfault.com/users/flair/18044.html?theme=clean" marginwidth="0" marginheight="0" 
+        frameborder="0"  scrolling="no" width="210" height="60"></iframe> 
+
+
+
+.. Stack Overflow
+.. --------------
+
+.. .. raw:: html
+
+..    <iframe src="http://stackoverflow.com/users/flair/152439.html?theme=clean" marginwidth="0" marginheight="0" 
+        frameborder="0"  scrolling="no" width="210" height="60"></iframe> 
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :titlesonly:
+
+   profil/cv
+   profil/projekte
+   profil/skills
+
+

@@ -1,0 +1,203 @@
+.. vim: set filetype=rst
+
+.. |NO2| replace:: NO\ :sub:`2`
+
+.. _top:
+
+[project_]
+[publications_]
+[presentations_]
+[posters_]
+[cv_]
+[stuff_]
+
+*******
+Science
+*******
+
+I am a PhD student at the University of Bremen's Institute of Environmental
+Physics, in the `DOAS group <http://www.iup.uni-bremen.de/doas/>`__.  My
+thesis with the title *Observation of megacity pollution from space* under the
+supervision of Prof.  J. P. Burrows is being financed by the Helmholtz
+Gemeinschaft's `Earth System Science Research School (ESSReS)
+<http://www.earth-system-science.org>`__.
+
+.. _project:
+
+Project
+-------
+
+One of the largest changes over the last century is the massive increase in
+human population globally. At the same time, the percentage of people living
+in large cities is increasing rapidly. These cities account for a large
+fraction of the total anthropogenic emissions to the atmosphere, and this
+trend is expected to continue as more and more countries industrialise while
+population is still on the rise. As a result, large cities are hotspots of
+pollution problems and at the same time have a significant impact on air
+quality on a global scale. One particular problem is the formation of ozone, a
+secondary pollutant with health and climate implications.
+
+Using measurements from satellite based spectrometers, the spatial
+distribution and the temporal evolution of nitrogen dioxide (|NO2|) and
+formaldehyde (HCHO), two important ozone precursors, can be determined. These
+measurements can be applied to validate results of chemistry transport models
+such as MOZART and also combined with these to assess the impact of pollution
+from large cities on the atmosphere and to estimate future developments.
+
+In this PhD project, data from the GOME, SCIAMACHY and GOME-2 satellite
+instruments will be used to derive a consistent dataset of tropospheric
+columns of |NO2| and HCHO, to study their evolution and the importance of large
+cities on their global budgets. The work will be performed in close
+collaboration with the European project `megaCITY – Zoom for the Environment
+(CityZen) <http://cityzen-project.eu>`__, an international project on
+the impact of megacities.
+
+
+[top_]
+
+
+.. _publications:
+
+Publications
+------------
+
+.. Articles
+.. ^^^^^^^^
+
+* Richter A, Begoin M, **Hilboll A**, Burrows JP: **An improved NO2 retrieval
+  for the GOME-2 satellite instrument**. *Atmos. Meas. Tech. Discuss.*, 4,
+  213-246, doi:10.5194/amtd-4-213-2011, 2011. [`Link
+  <http://www.atmos-meas-tech-discuss.net/4/213/2011/amtd-4-213-2011.html>`__]
+* Kanakidou M, Mihalopoulos N, Kindap T, Im U, Vrekoussis M, Gerasopoulos E,
+  Dermitzaki E, Unal A, Koçak M, Markakis K, Melas D, Mouvarakis G, Youssef
+  AF, Richter A, Hatzianastassiou N, **Hilboll A**, Ebojie F, von Savigny C,
+  Ladstaetter-Weissenmayer A, Burrows JP, Moubasgher H: **Megacities as hot
+  spots of air pollution in the East Mediterranean**. *Atmos. Environ.*,
+  45(6), 1223-1235, doi:10.1016/j.atmosenv.2010.11.048, 2010. [`Link 
+  <http://dx.doi.org/10.1016/j.atmosenv.2010.11.048>`__]
+* Konovalov IB, Beekmann M, Richter A, Burrows JP, **Hilboll A**: **Multi-
+  annual changes of NOx emissions in megacity regions: nonlinear trend
+  analysis of satellite measurement based estimates**. *Atmos. Chem. Phys.*,
+  10, 8481-8498, doi:10.5194/acp-10-8481-2010, 2010. [`Link
+  <http://www.atmos-chem-phys.net/10/8481/2010/acp-10-8481-2010.html>`__]
+
+
+.. _presentations:
+
+Presentations
+-------------
+
+* **Hilboll A**, Richter A, Vrekoussis M, Burrows JP, Gerasopoulos E, Zerefos
+  C, Kindap T, Im U, Mihalopoulos N, Kanakidou M, **Trends in tropospheric
+  nitrogen dioxide (NO2) over megacities and large conurbations in the
+  mediterranean and middle east from GOME and SCIAMACHY**. *11th IGAC Science
+  Conference Halifax, Canada*, July 2010. [`PDF
+  <../_static/science/talk_igac_2010_hilboll.pdf>`__] 
+* **Hilboll A**, Richter A, Vrekoussis M, Burrows JP: **Trends in tropospheric
+  NO2 over megacities in the Mediterranean and Middle East regions from GOME
+  and SCIAMACHY**. *EGU general assembly 2010, Vienna, Austria*, May 2010.
+  [`PDF <../_static/science/talk_egu_2010_hilboll.pdf>`__]
+* **Hilboll A**, **Trends in tropospheric nitrogen dioxide (NO2) over
+  megacities in the Mediterranean and Middle East regions from GOME and
+  SCIAMACHY**. *Seminar Ocean, Ice, and Atmosphere, Institute of Environmental
+  Physics, University of Bremen, Bremen, Germany*, April 2010.  [`PDF
+  <../_static/science/talk_iup-seminar_2010_hilboll.pdf>`__]
+* **Hilboll A**: **Satellite measurements of tropospheric trace gases in the
+  CHARMEX project**. *CHARMEX WP1 Trends workshop, Paris, France*, October
+  2009.  [`PDF <../_static/science/talk_charmex-wp1_2009_hilboll.pdf>`__]
+* Richter A, **Hilboll A**, Burrows JP: **Improvements in GOME-2 retrievals of
+  NO2**. *O3M SAF User & Algorithm Forum, Halkidiki, Greece*, June 2009.
+* **Hilboll A**: **Projekt "atmosfair" – eine Antwort auf die Klimafolgen des
+  Flugreisens?** *International summer school "Prima Klima!  Auswirkungen des
+  Klimawandels auf Freizeit und Tourismus", Hochschule Bremen, Germany*, July
+  2008. 
+
+
+[top_]
+
+.. _posters:
+
+Posters
+-------
+
+* Hilboll A, Richter A, and Burrows JP: **Intercomparison of different
+  stratospheric correction schemes for the retrieval of tropospheric nitrogen
+  dioxide columns from satellite**. *38th COSPAR Scientific Assembly, Bremen,
+  Germany*, July 2010. [`PDF <../_static/science/poster_cospar_2010_hilboll.pdf>`__]
+* Noguchi K, Richter A, **Hilboll A**, Burrows JP, and Irie H: **A feasibility
+  study for the monitoring of diurnal variations of the tropospheric NO2 over
+  Tokyo from a geostationary satellite**. *EGU General Assembly, Vienna,
+  Austria*, May 2010. [`PDF
+  <http://doas-bremen.de/posters/egu_2010_noguchi.pdf>`__]
+* Richter A, **Hilboll A**, Zien A and Burrows JP: **GOME-2 satellite
+  observations of NOx emissions from ships**. *EGU General Assembly, Vienna,
+  Austria*, May 2010. [`PDF
+  <http://www.iup.uni-bremen.de/doas/posters/egu_2010_richter.pdf>`__]
+* Zien A, Richter A, **Hilboll A**, and Burrows JP: **Cloud effects on
+  tropospheric NO2 measurements from satellite**. *DPG Spring meeting,
+  Hannover, Germany*, March 2010. [`PDF 
+  <http://www.iup.uni-bremen.de/doas/posters/dpg_2010_zien.pdf>`__]
+* Richter A, **Hilboll A**, Zien A and Burrows JP: **GOME-2 satellite
+  observations of NOx emissions from ships**. *DPG Spring meeting, Hannover,
+  Germany*, March 2010. [`PDF
+  <http://www.iup.uni-bremen.de/doas/posters/dpg_2010_richter.pdf>`__]
+* **Hilboll A**, Leitão J, Vrekoussis M, Richter A and Burrows JP: **Trends in
+  tropospheric NO2 from SCIAMACHY over megacities in the Mediterranean and
+  Middle East**. *ESA Atmospheric Science Conference, Barcelona, Spain*,
+  September 2009. [`PDF <../_static/science/poster_esa_2009_hilboll.pdf>`__]
+* **Hilboll A**: **Observation of Megacity pollution from space**. *1st ESSReS
+  annual retreat, Bremerhaven, Germany*, August 2009. [`PDF
+  <../_static/science/poster_essres-r1_hilboll.pdf>`__]
+* Vrekoussis M, **Hilboll A**, Leitão J, Richter A, Wittrock F, Burrows JP,
+  Gerasopoulos E, Amiridis V, Petrakis M, Zerefos C, Myriokefalitakis S,
+  Kanakodou M, and Mihalopoulos N: **Monitoring Air Pollution From Space: The
+  Major urban areas of the Eastern Mediterranean Basin**. *MOCA-09:
+  IAMAS-IAPSO-IACS Joint Assembly, Montréal, Canada*, July 2009. [`PDF
+  <http://www.iup.uni-bremen.de/doas/posters/iamas_2009_vrekoussis.pdf>`__]
+* **Hilboll A**, Wieters N, Richter A, Sinnhuber BM, Burrows JP: **The impact
+  of the stratospheric correction on tropospheric NO2 measurements from
+  satellites**. *EGU General Assembly, Vienna, Austria*, April 2009. [`PDF
+  <../_static/science/poster_egu_2009_hilboll.pdf>`__]
+* Richter A, Leitão J, **Hilboll A**, Wittrock F, Vrekoussis M, and Burrows
+  JP: **Using Satellite Measurements to study the Impact of MegaCities on Air
+  Pollution**. *7th International Conference on Air Quality – Science and
+  Application, Istanbul, Turkey*, March 2009. [`PDF
+  <http://www.iup.uni-bremen.de/doas/posters/aq_2009_richter.pdf>`__]
+
+
+[top_]
+
+
+.. _cv:
+
+Curriculum Vitae
+----------------
+
+A PDF version of my CV is available [`here <../_static/science/cv_hilboll.pdf>`__].
+
+[top_]
+
+
+Organizational activities
+-------------------------
+
+* **PhD student representative**, `Academic Council
+  <http://www.earth-system-science.org/en/members/academic_council/>`__ of the
+  `Helmholtz Research School on Earth System Science (ESSReS)
+  <http://www.earth-system-science.org/>`__, 2008 - present.
+
+
+.. _stuff:
+
+Useful stuff
+------------
+
+Templates
+^^^^^^^^^
+
+* **A0 poster template for Scribus:** For my poster at EGU 2009 I created a
+  template in `Scribus <http://www.scribus.net>`__, which can be downloaded
+  [`here <../_static/science/scribus_template_a0_landscape.sla>`__]. It is in A0
+  landscape (!) format.
+
+[top_]
