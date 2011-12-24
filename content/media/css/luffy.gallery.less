@@ -1,0 +1,98 @@
+/* -*- css -*- */
+
+#lf-main .lf-gallery {
+    margin: 1em 0.7em 1em 0.3em;
+    padding: 9px 10px;
+    text-align: center;
+
+    a {
+	border: 0;
+	margin: 0;
+	padding: 0;
+    }
+
+    img {
+	.rounded-corners(4px);
+	.rotated(-1deg);
+	.inline-block;
+	margin: 5px;
+	border: 1px solid #777;
+	padding: 5px 5px 20px 5px;
+	background-color: white;
+	.transition;
+    }
+    a:hover img {
+	.rotated(2deg);
+	border: 1px solid @theme-color;
+	.shadow;
+    }
+}
+
+/* Grabbed from slimbox 2.04. http://code.google.com/p/slimbox/ */
+
+#lfb-overlay {
+    position: fixed;
+    z-index: 1100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    cursor: pointer;
+}
+#lfb-center {
+    position: absolute;
+    z-index: 1101;
+    background-color: #fff;
+}
+.lfb-loading {
+    background: #fff url('../images/l/loading.gif') no-repeat center;
+}
+#lfb-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 10px solid #fff;
+    background-repeat: no-repeat;
+    /* Adapt image size to viewport size */
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+#lfb-close {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    left: -15px;
+    z-index: 1103;
+}
+#lfb-prevlink, #lfb-nextlink {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 30%;
+    outline: none;
+}
+#lfb-prevlink {
+    left: 0;
+    &:hover span {
+	right: auto;
+	left: 20px;
+    }
+}
+#lfb-nextlink {
+    right: 0;
+    &:hover span {
+	left: auto;
+	right: 20px;
+    }
+}
+#lfb-nextlink-ico, #lfb-prevlink-ico {
+    position: absolute;
+    display: block;
+    left: -99999px;
+    top: 50%;
+    z-index: 1103;
+}

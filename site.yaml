@@ -1,0 +1,77 @@
+mode: development
+media_root: media
+media_url: /media
+base_url: /
+plugins:
+  - hyde.ext.plugins.meta.MetaPlugin
+  - hyde.ext.plugins.git.GitDatesPlugin
+  - hyde.ext.plugins.combine.CombinePlugin
+  - hyde.ext.plugins.languages.LanguagePlugin
+  - hyde.ext.plugins.auto_extend.AutoExtendPlugin
+  - hyde.ext.plugins.sorter.SorterPlugin
+  - hyde.ext.plugins.tagger.TaggerPlugin
+  - hyde.ext.plugins.less.LessCSSPlugin
+  - hyde.ext.plugins.textlinks.TextlinksPlugin
+  - extensions.images.ImageThumbnailsPlugin
+context:
+  data:
+    base: http://vincent.bernat.im
+    languages:
+      fr: Français
+      en: English
+meta:
+  nodemeta: meta.yaml
+  author: Vincent Bernat
+  title: "Disruptive Ninja"
+  created: git
+  modified: git
+  language: en
+  analytics: UA-21482482-4
+  disqus: luffycx
+  keywords: "debian, python, network, vincent bernat"
+typekit: hen2cfo
+less:
+  app: /usr/bin/lessc
+markdown:
+  extensions:
+    - codehilite
+    - extra
+    - toc
+  output_format: html
+sorter:
+  name:
+    attr:
+      - relative_path
+  time:
+    attr:
+      - meta.created
+    reverse: true
+    filters:
+      source.kind: html
+      meta.listable: true
+  time_fr:
+    attr:
+      - meta.created
+      - relative_path
+    reverse: true
+    filters:
+      source.kind: html
+      meta.listable: true
+      meta.language: fr
+  time_en:
+    attr:
+      - meta.created
+      - relative_path
+    reverse: true
+    filters:
+      source.kind: html
+      meta.listable: true
+      meta.language: en
+tagger:
+  sorter: time
+  tags:
+    "ssl":
+      descr: "SSL/TLS"
+    "network":
+      descr_en: "Networking"
+      descr_fr: "Réseau"

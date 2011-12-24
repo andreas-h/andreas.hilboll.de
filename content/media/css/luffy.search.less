@@ -1,0 +1,88 @@
+/* -*- css -*- */
+/* Search engine */
+
+#lf-search {
+    float: right;
+    margin: 2px 6px 2px 6px;
+    position: relative;
+    #lf-search-glass {
+	 cursor: pointer;
+	 display: block;
+	 padding: 7px 8px 5px;
+	 position: absolute;
+	 right: 0;
+	 input {
+	     border: none;
+	 }
+    }
+    #lf-search-query {
+	 background: none repeat scroll 0 0 #666;
+	 border: 1px solid black;
+	 height: 1.2em;
+	 .shadow(1px);
+	 .rounded-corners(4px);
+	 color: #ccc;
+	 width: 200px;
+	 padding: 6px 25px 4px 6px;
+    }
+}
+
+#lf-search-results {
+    position: absolute;
+    width: 100%;
+    top: 4em;
+    left: -150%;
+    display: none;
+    background: white;
+    font-family: @font-regular;
+    .shadow;
+    a {
+	.regular-link;
+    }
+    #lf-search-results-close {
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	right: 12px;
+	top: -12px;
+    }
+}
+#lf-search-results-results {
+    margin: 1em 2em 1em 4em;
+    li {
+	display: block;
+	padding: 1em;
+    }
+    strong, b {
+	background-color: #FCEC56;
+	padding: 0 2px;
+	font-weight: normal;
+    }
+    .snippet {
+	display: block;
+	padding: 0.4em 3em 0.2em 0;
+    }
+    .url {
+	display: block;
+	padding-top: 0.3em;
+	color: #0E774A;
+	font: bold 0.8em @font-headings;
+    }
+    .zero {
+	font: bold 7em @font-headings;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #lf-search-results-results {
+	margin: 1em 0.4em 1em 1em !important;
+    }
+    #lf-search #lf-search-query {
+	width: 100px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #lf-search {
+	display: none;
+    }
+}
