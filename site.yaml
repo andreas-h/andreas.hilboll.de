@@ -4,7 +4,7 @@ media_url: /media
 base_url: /
 plugins:
   - hyde.ext.plugins.meta.MetaPlugin
-  - hyde.ext.plugins.git.GitDatesPlugin
+#  - hyde.ext.plugins.git.GitDatesPlugin
   - hyde.ext.plugins.combine.CombinePlugin
   - hyde.ext.plugins.languages.LanguagePlugin
   - hyde.ext.plugins.auto_extend.AutoExtendPlugin
@@ -12,7 +12,7 @@ plugins:
   - hyde.ext.plugins.tagger.TaggerPlugin
   - hyde.ext.plugins.less.LessCSSPlugin
   - hyde.ext.plugins.textlinks.TextlinksPlugin
-  - extensions.images.ImageThumbnailsPlugin
+#  - extensions.images.ImageThumbnailsPlugin
 context:
   data:
     base: http://vincent.bernat.im
@@ -31,7 +31,7 @@ meta:
   keywords: "debian, python, network, vincent bernat"
 typekit: hen2cfo
 less:
-  app: /usr/bin/lessc
+  app: /home/andreas/.virtualenvs/hyde/bin/lessc
 markdown:
   extensions:
     - codehilite
