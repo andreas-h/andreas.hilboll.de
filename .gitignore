@@ -1,0 +1,4 @@
+/deploy/*
+/extensions/*.pyc
+/.hyde_deps
+
