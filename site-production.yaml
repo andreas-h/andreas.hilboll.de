@@ -20,6 +20,7 @@ plugins:
   - hyde.ext.plugins.uglify.UglifyPlugin
   - extensions.cdn.CdnPlugin
 typekit: tyt0atd
+googlefonts: PT+Serif|PT+Sans+Caption|Inconsolata
 less:
   app: /usr/bin/lessc
   args:

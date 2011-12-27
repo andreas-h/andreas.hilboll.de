@@ -15,21 +15,22 @@ plugins:
 #  - extensions.images.ImageThumbnailsPlugin
 context:
   data:
-    base: http://vincent.bernat.im
+    base: http://andreas-h.info
     languages:
-      fr: Français
+      de: Deutsch
       en: English
 meta:
   nodemeta: meta.yaml
-  author: Vincent Bernat
+  author: Andreas Hilboll
   title: "Disruptive Ninja"
   created: git
   modified: git
-  language: en
+  language: de
   analytics: UA-21482482-4
   disqus: luffycx
   keywords: "debian, python, network, vincent bernat"
-typekit: hen2cfo
+#typekit: hen2cfo
+googlefonts: PT+Serif|PT+Sans+Caption|Inconsolata
 less:
   app: /home/andreas/.virtualenvs/hyde/bin/lessc
 markdown:
@@ -49,7 +50,7 @@ sorter:
     filters:
       source.kind: html
       meta.listable: true
-  time_fr:
+  time_de:
     attr:
       - meta.created
       - relative_path
@@ -57,7 +58,7 @@ sorter:
     filters:
       source.kind: html
       meta.listable: true
-      meta.language: fr
+      meta.language: de
   time_en:
     attr:
       - meta.created

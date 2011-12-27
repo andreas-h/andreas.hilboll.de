@@ -14,8 +14,7 @@
 {% if site.config.mode == "development" %}
   <link rel="stylesheet" href="{{ media_url('css/grid.css') }}" type="text/css">
 {% endif %}
-  <script type="text/javascript" src="//use.typekit.com/{{ site.config.typekit }}.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family={{ site.config.googlefonts }}" type="text/css">
   <script src="{{ media_url('js/modernizr.js') }}"></script>
 </head>
 {% if resource.meta.class is defined %}
