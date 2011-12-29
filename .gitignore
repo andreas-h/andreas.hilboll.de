@@ -1,4 +1,4 @@
 /deploy/*
 /extensions/*.pyc
 /.hyde_deps
-
+/content/.hyde_deps

@@ -4,14 +4,20 @@ default_block: article
 language: en
 menu:
   -
+     name: "About me"
+     page: "about.html"
+  -
+     name: "Science"
+     page: "science.html"
+  -
+     name: "Techlog"
+     page: "techlog/"
+  -
      name: "Résumé"
      page: "cv.html"
   -
      name: "Projects"
      page: "projects.html"
-  -
-     name: "Blog"
-     page: "blog/"
 l10n:
   search: "Search"
   otherlinks: "Other stuff"

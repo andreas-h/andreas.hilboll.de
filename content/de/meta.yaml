@@ -4,11 +4,11 @@ default_block: article
 language: de
 menu:
   -
-     name: "Science"
-     page: "science.html"
-  -
      name: "Über mich"
      page: "about.html"
+  -
+     name: "Science"
+     page: "science.html"
   -
      name: "Techlog"
      page: "techlog/"
