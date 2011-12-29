@@ -75,4 +75,4 @@ tagger:
       descr: "SSL/TLS"
     "network":
       descr_en: "Networking"
-      descr_fr: "Réseau"
+      descr_de: "Réseau"
