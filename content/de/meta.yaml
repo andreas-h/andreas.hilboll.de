@@ -1,0 +1,25 @@
+extends: base.j2
+default_block: article
+
+language: de
+menu:
+  -
+     name: "Science"
+     page: "science.html"
+  -
+     name: "Über mich"
+     page: "about.html"
+  -
+     name: "Techlog"
+     page: "techlog/"
+l10n:
+  search: "Suche"
+  otherlinks: "Sonstiges"
+  translations: "Weitere Sprachen"
+  posts: "Weitere Artikel"
+  next: "Weiter"
+  previous: "Zurück"
+  comments: "Kommentare (mit Disqus)"
+  attachments: "Anhänge"
+  tags: "Tags"
+
