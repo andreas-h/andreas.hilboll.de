@@ -14,7 +14,9 @@ menu:
      page: "techlog/"
 l10n:
   search: "Suche"
-  otherlinks: "Sonstiges"
+  otherlinks: "Weitere Links"
+  sources: "Quellen"
+  imprint: "impressum"
   translations: "Weitere Sprachen"
   posts: "Weitere Artikel"
   next: "Weiter"

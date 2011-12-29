@@ -21,6 +21,8 @@ menu:
 l10n:
   search: "Search"
   otherlinks: "Other stuff"
+  sources: "Sources"
+  imprint: "imprint"
   translations: "Other languages"
   posts: "Other articles"
   next: "Next"
