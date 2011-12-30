@@ -8,7 +8,7 @@ written in Python.
 This website is based on the website of [Vincent Bernat][bernat].
 
 Feel free to look at how things are done. Both content (all HTML and image
-files) and boilderplate (CSS, JS, layout) are licensed as [CC BY-NC-SA
+files) and boilerplate (CSS, JS, layout) are licensed as [CC BY-NC-SA
 3.0][cc], unless I am not the author of the work (for example, jQuery,
 ModernizR, fonts).
 
