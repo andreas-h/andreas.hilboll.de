@@ -19,6 +19,21 @@ luffy.timeago = function() {
 	    months: "%d mois",
 	    year: "un an",
 	    years: "%d ans"	    
+	},
+	de: {
+	    prefixAgo: "vor",
+	    prefixFromNow: "d'ici",
+	    seconds: "weniger als einer Minute",
+	    minute: "einer Minuie",
+	    minutes: "%d Minuten",
+	    hour: "einer Stunde",
+	    hours: "%d Stunden",
+	    day: "einem Tag",
+	    days: "%d Tagen",
+	    month: "einem Monat",
+	    months: "%d Monaten",
+	    year: "einem Jahr",
+	    years: "%d Jahren"	    
 	}
     };
 
