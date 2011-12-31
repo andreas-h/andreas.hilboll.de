@@ -12,6 +12,9 @@ menu:
   -
      name: "Techlog"
      page: "techlog/"
+  -
+     name: "Links"
+     page: "links.html"
 l10n:
   search: "Suche"
   otherlinks: "Weitere Links"

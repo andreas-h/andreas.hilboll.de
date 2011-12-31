@@ -22,7 +22,7 @@ context:
 meta:
   nodemeta: meta.yaml
   author: Andreas Hilboll
-  title: "Disruptive Ninja"
+  title: ""
   created: git
   modified: git
   language: de
