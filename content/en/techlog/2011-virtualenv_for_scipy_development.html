@@ -1,0 +1,39 @@
+---
+title: Setting up a virtual environment for SciPy development
+keywords: "scipy, github, virtualenv, python"
+uuid: f973328c-8eef-444c-92eb-5d3f2c6b459e
+---
+
+## Setting up my own fork
+
+* Create virtualenv `~/.virtualenvs/scipy-dev`
+* Install recent numpy via `pip install --upgrade numpy`
+* Install requirements for testing via `pip install nose`
+* Fork the repository *scipy/scipy* on github
+* clone the forked repository:
+
+      ::console
+      $ git clone git@github.com:andreas-h/scipy.git
+
+* pull in upstream updates:
+
+      ::console
+      $ git remote add upstream git://github.com/scipy/scipy.git
+      $ git fetch upstream
+
+* change some arbitrary docstring to test local build
+* build scipy via `python setup.py install --prefix=~/.virtualenvs/scipy-dev`
+* use ipython to check for the modified docstring
+
+.. note::
+
+   For some reason, in order to use the thus installed scipy, it is necessary
+   to start ipython from the directory
+   `~/.virtualenvs/scipy-dev/lib/python2.6/site-packages`
+
+
+
+
+{# Local Variables: #}
+{# mode: markdown   #}
+{# End:             #}
