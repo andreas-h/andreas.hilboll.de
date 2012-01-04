@@ -1,0 +1,47 @@
+---
+title: 'Installation der "Steuer-Spar-Erklärung" unter Ubuntu Linux'
+keywords: ""
+uuid: d8e63b2e-bc3f-4fe4-b9d2-e3e36bfba7bf
+---
+
+Meine Steuererklärung erstelle ich schon seit Jahren mit der Software
+[Steuer-Spar-Erklärung][steuersparerklaerung] der Akademischen
+Arbeitsgemeinschaft. Das Programm gefällt mir, schneidet bei Vergleichstests
+regelmäßig mit als bestes ab, und läuft fast reibungslos unter Linux, wenn man
+[Wine][wine] benutzt.
+
+Mein Notebook läuft noch unter Ubuntu 10.04LTS *Lucid Lynx*; ich habe aber die
+PPA für aktuellere Wine-Versionen aktiviert. Hierzu müssen die Kommandos
+
+   $ sudo apt-add-repository deb http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu lucid main
+   $ sudo aptitude update
+   $ sudo aptitude install wine1.3
+
+ausgeführt werden. Hierdurch installiert man die (halbwegs) aktuelle Version
+1.3.XXX von Wine. Mehr zu Wine kann man [hier][wine_ubuntuusers] nachlesen.
+
+Wenn man die Steuer-Spar-Erklärung gekauft hat, kann man sich eine `.exe`-Datei
+herunterladen, die man zur Installation mit Wine ausführt:
+
+   $ wine SSEStandard_17.02.exe
+
+Im folgenden Installationsdialog war es bei mir wichtig, als Installationsmodus
+"nur für den aktuellen Benutzer" auszuwählen; meine Versuche, eine Installation
+"für alle Benutzer" durchzuführen, schlugen alle fehl.[1]
+
+
+Installation nur für lokalen Benutzer
+
+Updates
+
+http://www.steuertipps.de/support/updates/
+
+[1]: Bla
+
+[steuersparerklärung]: http://www.steuertipps.de/shop/software/steuer-spar-erklaerung-2012/
+[wine]: http://www.winehq.org/
+[wine_ubuntuusers]: http://wiki.ubuntuusers.de/WINE
+
+{# Local Variables: #}
+{# mode: markdown   #}
+{# End:             #}
