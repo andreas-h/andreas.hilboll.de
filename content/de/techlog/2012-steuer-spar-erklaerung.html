@@ -4,6 +4,8 @@ keywords: ""
 uuid: d8e63b2e-bc3f-4fe4-b9d2-e3e36bfba7bf
 ---
 
+created: !!timestamp '2012-01-05 17:20:20 +01:00'
+
 Meine Steuererklärung erstelle ich schon seit Jahren mit der Software
 [Steuer-Spar-Erklärung][steuersparerklaerung] der Akademischen
 Arbeitsgemeinschaft. Das Programm gefällt mir, schneidet bei Vergleichstests
@@ -13,9 +15,10 @@ regelmäßig mit als bestes ab, und läuft fast reibungslos unter Linux, wenn ma
 Mein Notebook läuft noch unter Ubuntu 10.04LTS *Lucid Lynx*; ich habe aber die
 PPA für aktuellere Wine-Versionen aktiviert. Hierzu müssen die Kommandos
 
-   $ sudo apt-add-repository deb http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu lucid main
-   $ sudo aptitude update
-   $ sudo aptitude install wine1.3
+    ::console
+    $ sudo apt-add-repository deb http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu lucid main
+    $ sudo aptitude update
+    $ sudo aptitude install wine1.3
 
 ausgeführt werden. Hierdurch installiert man die (halbwegs) aktuelle Version
 1.3.XXX von Wine. Mehr zu Wine kann man [hier][wine_ubuntuusers] nachlesen.
@@ -23,24 +26,36 @@ ausgeführt werden. Hierdurch installiert man die (halbwegs) aktuelle Version
 Wenn man die Steuer-Spar-Erklärung gekauft hat, kann man sich eine `.exe`-Datei
 herunterladen, die man zur Installation mit Wine ausführt:
 
-   $ wine SSEStandard_17.02.exe
+    ::console
+    $ wine SSEStandard_17.02.exe
 
-Im folgenden Installationsdialog war es bei mir wichtig, als Installationsmodus
-"nur für den aktuellen Benutzer" auszuwählen; meine Versuche, eine Installation
-"für alle Benutzer" durchzuführen, schlugen alle fehl.[1]
+Zum Schluss der Installation kommt dann eine Fehlermeldung, dass die
+Installation nicht korrekt abgeschlossen werden konnte. Bei mir war die
+Steuer-Spar-Erklärung aber dennoch vollständig installiert.
+
+Allerdings war es während der Installation bei mir wichtig, als
+Installationsmodus "nur für den aktuellen Benutzer" auszuwählen; meine Versuche,
+eine Installation "für alle Benutzer" durchzuführen, schlugen alle fehl.[^fail]
+
+[^fail]: Beim Starten des Programms bekam ich dann immer eine Fehlermeldung,
+         dass die Lizenz-Datei nicht gefunden werden konnte.
+
+Das einzige, was auf meinem Rechner dann nicht funktioniert, sind automatische
+Updates. Das Problem lässt sich aber einfach umgehen, wenn man auf der 
+[Support-Seite][update_download] des Herstellers die Update-Datei als `.exe`
+herunterlädt und diese dann wiederum per Wine ausführt.
 
 
-Installation nur für lokalen Benutzer
-
-Updates
-
-http://www.steuertipps.de/support/updates/
-
-[1]: Bla
-
-[steuersparerklärung]: http://www.steuertipps.de/shop/software/steuer-spar-erklaerung-2012/
+[steuersparerklaerung]: http://www.steuertipps.de/shop/software/steuer-spar-erklaerung-2012/
 [wine]: http://www.winehq.org/
 [wine_ubuntuusers]: http://wiki.ubuntuusers.de/WINE
+[update_download]: http://www.steuertipps.de/support/updates/
+
+
+## Quellen
+
+* http://www.netzingenieur.xlstatik.de/stsperkl.htm
+* http://lacher-edv.de/linux/index.php/2011/12/15/debian-squeeze-steuersparerklarung-2012/
 
 {# Local Variables: #}
 {# mode: markdown   #}
