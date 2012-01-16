@@ -6,12 +6,25 @@ uuid: 5e89dcb6-9629-46db-bcc7-86505904c439
 
 created: !!timestamp '2012-01-15 14:14:00 +01:00'
 
-Da git-annex nicht in den Paketquellen von Ubuntu *Lucid* enthalten ist, habe ich mich der Einfachheit halber für die Installation mittels [cabal][http://www.haskell.org/cabal/] entschieden:
+Da git-annex nicht in den Paketquellen von Ubuntu *Lucid* enthalten ist, muss hier einiges an Handarbeit angelegt werden.
+Zunächst müssen ein paar Abhängigkeiten installiert werden:
 
     ::console
-    andreas@antares:~$ sudo aptitude install cabal-install
-    [...]
-    andreas@antares:~$ cabal install git-annex --bindir=$HOME/bin
+    andreas@antares:~$ sudo aptitude install libgmp3-dev freeglut3-dev
+
+Danach lädt man sich den *GHC* Compiler und die *Haskell Platform* in ihrer jeweils aktuellen Version von der [Homepage der Haskell Platform](http://hackage.haskell.org/platform/linux.html) herunter.
+In meinem Fall waren das *GHC 7.0.4* und *Haskell Platform 2011.4.0.0*.
+Beide Pakete kommen als komprimierter Tarball daher, und lassen sich mittels einem einfachen Dreisatz übersetzen:
+
+    ::console
+
+
+Ich habe mich dabei entschieden, Bibliotheken und Binaries in meinem `$HOME`-Verzeichnis abzulegen.
+
+*git-annex* kann dann schließlich mittels *cabal* installiert werden:
+
+    ::console
+    andreas@antares:~$ cabal install git-annex
 
 
 {# Local Variables: #}
