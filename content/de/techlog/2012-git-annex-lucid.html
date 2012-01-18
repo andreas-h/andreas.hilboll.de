@@ -6,7 +6,7 @@ uuid: 5e89dcb6-9629-46db-bcc7-86505904c439
 
 created: !!timestamp '2012-01-15 14:14:00 +01:00'
 
-Da git-annex nicht in den Paketquellen von Ubuntu *Lucid* enthalten ist, muss hier einiges an Handarbeit angelegt werden.
+Da *git-annex* nicht in den Paketquellen von Ubuntu *Lucid* enthalten ist, muss hier einiges an Handarbeit angelegt werden.
 Zunächst müssen ein paar Abhängigkeiten installiert werden:
 
     ::console
@@ -24,7 +24,7 @@ Ich habe mich dabei entschieden, Bibliotheken und Binaries in meinem `$HOME`-Ver
 *git-annex* kann dann schließlich mittels *cabal* installiert werden:
 
     ::console
-    andreas@antares:~$ cabal install git-annex
+    andreas@antares:~$ cabal install git-annex --bindir=$HOME/bin
 
 
 {# Local Variables: #}

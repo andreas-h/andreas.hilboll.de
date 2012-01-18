@@ -15,7 +15,7 @@ plugins:
   - extensions.images.ImageThumbnailsPlugin
 context:
   data:
-    base: http://andreas-h.info
+    base: http://andreas.hilboll.de
     languages:
       de: Deutsch
       en: English
