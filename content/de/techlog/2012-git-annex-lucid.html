@@ -27,6 +27,46 @@ Ich habe mich dabei entschieden, Bibliotheken und Binaries in meinem `$HOME`-Ver
     andreas@antares:~$ cabal install git-annex --bindir=$HOME/bin
 
 
+## Installation auf einem Debian-Squeeze Server
+
+    ::console
+    srv2:~# echo "APT::Default-Release \"squeeze\";" >> /etc/apt/apt.conf.d/10aptpinning
+    srv2:~# echo "deb     http://backports.debian.org/debian-backports squeeze-backports  main contrib non-free" >> /etc/apt/sources.list
+    srv2:~# echo "deb-src http://backports.debian.org/debian-backports squeeze-backports  main contrib non-free" >> /etc/apt/sources.list
+    srv2:~# aptitude -t squeeze-backports install git-annex
+
+    git@srv2:~$ sed -i -e "s/# \$GL_ADC_PATH = \"\"\;/\$GL_ADC_PATH = \"\/home\/git\/gitolite\/contrib\/adc\/\"\;/g" .gitolite.rc
+
+
+
+### Protokoll
+
+andreas@antares:~/Audio$ git init
+Initialized empty Git repository in /home/andreas/Audio/.git/
+andreas@antares:~/Audio$ git annex init "antares"
+init antares ok
+andreas@antares:~$ sudo ln -s /media/3836-3830/ /media/hero
+andreas@antares:/media/hero/TMP2$ git clone ~/Audio/ .
+Initialized empty Git repository in /media/3836-3830/TMP2/.git/
+warning: remote HEAD refers to nonexistent ref, unable to checkout.
+
+andreas@antares:/media/hero/TMP2$ mv .git/ ../
+andreas@antares:/media/hero$ rm -rf TMP2/
+andreas@antares:/media/hero$ git annex init "hero"
+init hero ok
+andreas@antares:/media/hero$ git remote add antares ~/Audio/
+andreas@antares:~/Audio$ git remote add hero /media/hero/
+
+andreas@antares:/media/hero$ vim .gitignore 
+[...]
+andreas@antares:/media/hero$ cat .gitignore 
+/*
+!/.gitignore
+!/Eingang
+!/Hörbücher
+!/Musik
+!/Podcasts
+
 {# Local Variables: #}
 {# mode: markdown   #}
 {# End:             #}

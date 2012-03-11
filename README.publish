@@ -1,0 +1,1 @@
+lftp -u andreas@hilboll.de -e "set ftp:ssl-force; lcd deploy/; mirror --delete --only-newer --reverse --verbose . andreas/htdocs/; quit" srv2.s4y.tournesol-consulting.eu
