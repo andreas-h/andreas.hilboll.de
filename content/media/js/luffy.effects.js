@@ -17,9 +17,9 @@ luffy.effects = function() {
     /* -- Effect 2:
           Animate portion of pages that needs to be animated.
        -- */
-    e = function() {
-	$("html").addClass("lf-animate");
-    }();
+//    e = function() {
+//	$("html").addClass("lf-animate");
+//    }();
 
     /* -- Effect 3:
           Scrolly headers (stolen from Steve Losh)
