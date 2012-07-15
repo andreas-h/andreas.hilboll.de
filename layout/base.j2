@@ -80,11 +80,14 @@
   {# Footer #}
   <footer>
     <div>
+      <h3><a href="{{ content_url(resource.meta.language) }}/{{ resource.meta.l10n.imprint|e }}.html">{{ resource.meta.l10n.Imprint|e }}</a></h3>
+    </div>
+    <div>
       <h3>{{ resource.meta.l10n.otherlinks|e }}</h3>
       <ul>
 	<li><a href="https://github.com/andreas-h">GitHub</a></li>
 	<li><a href="http://www.researchgate.net/profile/Andreas_Hilboll/">ResearchGate</a></li>
-	<li><a href="http://www.researcherid.com/rid/A-6612-2011">ResearcherID</a></li>
+	<!--<li><a href="http://www.researcherid.com/rid/A-6612-2011">ResearcherID</a></li>-->
 	<!--<li><a href="https://launchpad.net/~andreas-h">Launchpad</a></li>-->
 	<!--<li><a href="http://stackoverflow.com/users/152439/andreas-h">Stack Overflow</a></li>-->
 	<!--<li><a href="https://gitorious.org/~andreas-h">Gitorious</a></li>-->
@@ -97,15 +100,14 @@
       <h3>{{ resource.meta.l10n.sources|e }}</h3>
       <ul>
 	<li>{{ resource.meta.l10n.Powered|e }} {{ resource.meta.l10n.by|e }} <a href="http://ringce.com/hyde">Hyde</a></li>
-	<li><a href="https://github.com/andreas-h/andreas.hilboll.de">{{ resource.meta.l10n.Site|e }}</a></li>
 	<li>
-	  <a href="https://github.com/andreas-h/andreas.hilboll.de/tree/hyde_2ndtry/content/{{ resource.relative_path }}">{{ resource.meta.l10n.Page|e }}</a>
+	  <a href="https://github.com/andreas-h/andreas.hilboll.de/tree/hyde_2ndtry/content/{{ resource.relative_path }}">{{ resource.meta.l10n.PageSource|e }}</a>
 	</li>
       </ul>
     </div>
     <address class="vcard author">
       © 2011-2012 <a href="{{ content_url(resource.meta.language) }}/{{ resource.meta.l10n.imprint|e }}.html">Andreas Hilboll</a>
-<!--      <a class="lf-sprite-rss"
+      <!--<a class="lf-sprite-rss"
 	 href="{{ content_url(resource.meta.language + '/blog/atom.xml') }}">
 	&nbsp;
       </a>-->

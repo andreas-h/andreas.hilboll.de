@@ -1,5 +1,10 @@
 {# -*- html -*- #}
 <ul>
+  <!--<li id="ah-headerlink">
+    <a href="{{ content_url(resource.meta.language + '/') }}">
+      andreas hilboll
+    </a>
+  </li>-->
   {% for menu in resource.meta.menu %}
   <li{% if content_url(resource.url).startswith(content_url(resource.meta.language + '/' + menu['page'])) %} class="active"{% endif %}>
     <a href="{{ content_url(resource.meta.language + '/' + menu['page']) }}">
