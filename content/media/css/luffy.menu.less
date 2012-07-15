@@ -1,10 +1,4 @@
 /* -*- css -*- */
-body {
-    background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAACTBAMAAABMnjV/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9sKDwgqGaPte+sAAAAbUExUReLh3gEAGQQDAAEAAAABAAAAAAABAAAAAQAAAAOApvoAAAAIdFJOUwAJH0uCrczbH2Lt+QAAAAFiS0dEAIgFHUgAAABdSURBVDjL7c1BDQJREETBtoAFLGABC1jAQrWDsc1hlhMnjptsXX5+epKXoUgZI1TJfieqKo59jr0YYtTeoRnDSJWK4buP5updvat3np71875XXivPlcfKfeW28qcPIJLMY2JzIooAAAAASUVORK5CYII=') repeat-x left top;
-}
-html {
-    background: @theme-background url('data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAFVBMVEXv7u/f3d/n5uff3N/w7/Dv7e/w7vA7L+vAAAAAK0lEQVR42k3KsQ0AIAwDwXeA7D8yBoSS4grLD0gPEdfQRPY3rN6knd+ymg0KYwBQlnIIcgAAAABJRU5ErkJggg==') repeat;
-}
 
 /* Menu bar */
 #lf-navbar {
@@ -15,31 +9,28 @@ html {
 	 left: 4px;
 	 top: 2px;
     }
+    border-bottom: 3px solid darken(@footer-color, 10%);
 }
 #lf-menubar {
     overflow: hidden;
     font: bold 1.05em @font-headings;
     line-height: 1;
     height: 2em;
-    background-color: black;
-    .gradient(center top, #333333, #111111);
-    .shadow;
     ul {
 	padding: 0em 2em 0em 100px;
     }
     li {
 	.inline-block;
 	padding: 0.5em 2em 0.5em 2em;
-	&.active {
-	    background-color: black;
+	/*&.active {
+	    background-color: #FFFFFF;
 	    border-left: 1px solid #444;
 	    border-right: 1px solid #444;
-	}
+	}*/
     }
     a {
 	text-decoration: none;
-	color: white;
-	text-shadow: #666 0px -1px 0px;
+    color: #909090;
     }
 }
 @media only screen and (max-width: 768px) {
