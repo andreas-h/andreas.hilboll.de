@@ -7,8 +7,8 @@ menu:
      name: "About me"
      page: "about.html"
   -
-     name: "Science"
-     page: "science.html"
+     name: "Research"
+     page: "research.html"
   -
      name: "Techlog"
      page: "techlog/"
